@@ -1,2 +1,2 @@
 # quickcov_rs
-CLI tool for calculating read coverage over a set of contigs 
+CLI tool for calculating read coverage over a set of contigs.
