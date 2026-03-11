@@ -1,4 +1,3 @@
-pub mod classifier;
 pub mod index;
 
 pub mod pipeline;

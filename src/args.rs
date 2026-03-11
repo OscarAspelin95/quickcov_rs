@@ -13,6 +13,14 @@ pub struct Args {
     #[arg(short, long, help = "Kmer size", default_value_t = 15)]
     pub kmer_size: usize,
 
+    #[arg(
+        short,
+        long,
+        help = "Min kmer coverage to count as valid.",
+        default_value_t = 1
+    )]
+    pub min_kmer_coverage: usize,
+
     #[arg(short, long, help = "Output file")]
     pub outfile: PathBuf,
 }
