@@ -90,44 +90,6 @@ checksum = "c08606f8c3cbf4ce6ec8e28fb0014a2c086708fe954eaa885384a6165172e7e8"
 
 [[package]]
 name = "bio"
-version = "2.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "add46f280e82963d4abb6f2c78f491a1f45be23ba27516856a1efbf194107bb7"
-dependencies = [
- "anyhow",
- "approx",
- "bio-types",
- "bit-set",
- "bv",
- "bytecount",
- "csv",
- "custom_derive",
- "editdistancek",
- "enum-map",
- "fxhash",
- "itertools",
- "itertools-num",
- "lazy_static",
- "multimap",
- "ndarray",
- "newtype_derive",
- "num-integer",
- "num-traits",
- "ordered-float",
- "petgraph",
- "regex",
- "serde",
- "serde_derive",
- "statrs",
- "strum",
- "strum_macros",
- "thiserror 2.0.18",
- "triple_accel",
- "vec_map",
-]
-
-[[package]]
-name = "bio"
 version = "3.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2169c40f17068bcf0563e5060ed6ccab694f68068133055f6e96bcdf987b3f32"
@@ -184,7 +146,7 @@ version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "226808df478f4b03c35a564072384a048e76304db97702ced7a405b3e8002a0d"
 dependencies = [
- "bio 3.0.0",
+ "bio",
  "flate2",
  "lazy_static",
  "memchr",
@@ -1134,7 +1096,7 @@ dependencies = [
 name = "quickcov_rs"
 version = "0.0.1"
 dependencies = [
- "bio 2.3.0",
+ "bio",
  "bio_utils_rs",
  "clap",
  "dashmap",
