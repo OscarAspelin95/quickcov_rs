@@ -18,5 +18,5 @@ rustc-hash = { version = "2.1.1" }
 indicatif = { version = "0.18.3" }
 thiserror = { version = "2.0.18" }
 bio_utils_rs = { version = "0.0.2", features = ["io"] }
-packed-seq = "4.4.2"
+packed-seq = "5.0.0"
 simd-minimizers = "2.3.1"
